@@ -15,8 +15,10 @@ namespace ConstructionLine.CodingChallenge
         public SearchResults Search(SearchOptions options)
         {
 
+            // The following implementation is taking 50 ms to bring all the results back on my machine (Performance test). So, didn't need to do anything else.
+            
             var totalShirts = _shirts;
-
+            
             var result = new SearchResults
             {
                 Shirts = totalShirts,
